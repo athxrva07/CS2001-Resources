@@ -62,18 +62,13 @@ section, aside {
     min-height: 100%;
 }
 
-aside {
-    /*ToDo: Set width.ToDo: For fluid layouts, use min-width, max-width, and set to relative 
-   values, like 25% of the page.*/ 
+aside { 
     background-color: #deded8;
+    position: relative;
     min-width: auto;
     max-width: 25%;
 }
 
-section {
-    /*ToDo: Set width. For fluid layouts, use min-width, max-width, and set to relative 
-   values, like 75% of the page.*/
-}
 
 /*Styling for search in aside*/
 .search{
@@ -83,9 +78,6 @@ section {
 }
 
 .center {
-    /*ToDo: Styling for centered elements
-    You can use margin, width useful to center.
-    */
     border: 3px solid green;
     padding: 10px;
     width: 500px;
